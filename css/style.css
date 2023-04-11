@@ -15,6 +15,30 @@ src: url(activists/Activists\ Regular.otf)}
 }
 
 
+.funcao h4{
+text-align: center;
+color: #000000;
+
+}
+
+
+
+.sobre h3{
+    text-align: left;
+    color: #000000;
+    font-family: 'font01';
+
+}
+.sobre h4{
+    text-align: center;
+    color: #000000;
+    margin-left: 20%;
+    margin-right: 20%; 
+    text-justify: auto;
+
+}
+
+
 
 /* .image {
     margin: 0;
