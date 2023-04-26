@@ -1,0 +1,101 @@
+
+
+@font-face{
+    font-family: 'font02';
+    src: url(css/fontes/Quoth\ -\ Personal\ Use.otf)}
+
+    @font-face{
+        font-family: 'font01';
+        src: url(css/fontes/Sweety\ Rasty.otf)}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif; 
+    
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(to bottom right, #70378bea, #bd63c05e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #e6cccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(49, 2, 43);
+    width: 200px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+li{
+    position: relative;
+    left: -0.1rem;
+    list-style-type: none;
+}
+
+
+a{
+    position: relative;
+    top: -2.7rem;
+    font-family: 'font02';
+    font-size: 2rem;
+    color:rgb(182, 47, 137);
+    left: 4rem;
+}
+
+#insta{
+    position: relative;
+    top: -2.9rem;
+    left: 4rem;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.botao{
+    position: relative;
+    top: -2.2rem;
+    left: 9rem;
+    font-family: 'font01';  
+    font-size: 130%;
+    color:rgb(14, 1, 1);
+    border-radius: 5%;
+    border-radius: 20%;
+    border-color: #440d4bc0;
+    background-color: #ab20bd49;
+    
+}
+
+.botao:hover{
+    background-color: #d440e742;
+    animation:color 0.50s infinite;
+}
+@keyframes color{
+    0%{
+        transform: scale(1);
+        background-color: #cf54df31;
+    }
+    50%{
+        transform: scale(1.1);
+        background-color: #ff6c9127;
+    }
+    100%{
+        transform: scale(1);
+        background-color: #c71abe;
+    }
+}
+
+#menu{
+  position: relative;
+  left: -10rem;
+  top: 10rem;
+}

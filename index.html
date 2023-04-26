@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon"
+        type="imagem/png"
+        href="css/imagem/icons8-stich.gif">
+        <title>Portifólio</title>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>  -->
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/biblioteca.css"/>
+    <!-- <link type="text/css" rel="stylesheet" href="css/js.js"/>  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Materialize CSS</title>
 </head>
 <body>    
-    <nav>
+    <nav id="nav">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">  Fernando Santos</a>
+            <a href="#" class="brand-logo">FERNANDO SANTOS</a>
             <a href="#" data-activates="menu-mobile" class="button-collapse">
                 <i class="material-icons">=</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#projeto">Projetos</a></li>
-                <li><a href="#">Ionic</a></li>
-                <li><a href="#">TypeScript</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="contact.html">Contatos</a></li>
             </ul>
             <ul class="side-nav" id="menu-mobile">
-                <li><a href="#projeto">Projetos</a></li>
-                <li><a href="#">Ionic</a></li>
-                <li><a href="#">TypeScript</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="contact.html">Contatos</a></li>
             </ul>
         </div>
     </nav>
 
-    
+    <div class="coluna-esquerda"></div>
+<div class="coluna-direita"></div>
           
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
@@ -38,43 +43,38 @@
         $(".button-collapse").sideNav();
     });
     </script>
+    
 <div id="image05" class="image" style="opacity: 1; transform: none;">
     <span class="frame">
-        <img src="css/image05.jpg" width=250px alt="">
-        
-    </span>
-</div>
-
-
-
-
-<div id="funcao" class="funcao">
-    <br>
-    <figure class="gif">
-        <div id="responsive-imgs">
-        <img src="css/350kb.gif">
-        </div>
-    </figure>
-
-    <!-- <a><h4>Desenvolvedor Backend </h4> </a> -->
-</div>
-
-<div id="sobre" class="sobre">
-    <fieldset style ="border-width: 5px;">
-    <a><h3>Sobre eu...   </h3> </a>
-</fieldset>   
-    <a><H4>Sou uma pessoa de bom coração,amo os animais, principalmente boi, galinha e porco. Odeio fofoca e falar mal dos outros</H4></a>
-    <div id="projeto" class="projetos">/
-        <fieldset>
-        <a><h3>projeto   </h3> </a>
-    </fieldset>   
+        <img src="css/imagem/eu.png" width=250px alt="">
     
-
-
+   </span>
 </div>
-
-
-</span>
-
+  <div id="funcao" class="funcao">
+   <br>
+   <a><h5>Estudante de Desenvolvimento de Sistemas</h5></a>
+</fieldset>
+  </div>
+  <fieldset style="border:none; width:99%; height: 170px; background-color:#70027e00;"></fieldset>
+  <fieldset style="border-width: 5px; ">
+    <div id="sobre" class="sobre">
+     <a><h3>Sobre Mim</h3><wbr><h4 id="text">Me chamo Fernando, tenho 40 anos, e atualmente estou estudando Técnico de
+        Desenvolvimento de Sistemas na Proz e Banco de Dados. Já trabalho na área, com implatação de sistema, sou apaixonado em Banco de Dados e 
+        Back-end.
+    </h4></p></a>
+    </div>
+  </fieldset>  
+  <fieldset style="border:none; width:50%; height:400px; background-color:#02707e00;"></fieldset>
+  <div id="projeto" class="projeto">
+    <a><h3 id="titlemp">Meus Projetos</h3></a>
+  </div>
+         <div style="width:100%; text-align:center;">
+          <div style="display:inline-block;"class="proj1">
+            <a id="dd"> TECHCODE</a>
+            <P id="desc">UM JODO DE DESAFIO COM PERGUNTAS E RESPOSTAS</P>
+            <a class="botao" id="trabalho"  href="http://techcode.sytes.net/">Entrar</a>
+          </div>
+         </div>
+        
 </body>
 </html>
